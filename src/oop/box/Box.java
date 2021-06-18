@@ -11,6 +11,18 @@ public class Box {
         this.length = l;
     }
 
+    Box(double size) {
+        width = size;
+        height = size;
+        length = size;
+    }
+
+    Box() {
+        width = 0;
+        height = 0;
+        length = 0;
+    }
+
     void setDimensions(double w, double h, double l) {
         this.width = w;
         this.height = h;
@@ -19,5 +31,9 @@ public class Box {
 
     public double volume() {
         return width * height * length;
+    }
+
+    void showVolume() {
+        System.out.println(volume());
     }
 }

@@ -36,9 +36,16 @@ public class Main {
 //        b.setDimensions(15, 15, 15);
 //        System.out.println("Volume is: " + b.volume());
 
-        Box b = new Box(10, 15,20);
-        System.out.println(b.volume());
-        Box b2 = new Box(5, 15, 20);
-        System.out.println(b2.volume());
+//        Box b = new Box(10, 15,20);
+//        System.out.println(b.volume());
+//        Box b2 = new Box(5, 15, 20);
+//        System.out.println(b2.volume());
+
+        Box box = new Box(10);
+        Box box2 = new Box(15, 20, 25);
+        Box box3 = new Box();
+        box.showVolume();
+        box2.showVolume();
+        box3.showVolume();
     }
 }
