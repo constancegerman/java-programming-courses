@@ -41,11 +41,17 @@ public class Main {
 //        Box b2 = new Box(5, 15, 20);
 //        System.out.println(b2.volume());
 
-        Box box = new Box(10);
-        Box box2 = new Box(15, 20, 25);
-        Box box3 = new Box();
-        box.showVolume();
+//        Box box = new Box(10);
+//        Box box2 = new Box(15, 20, 25);
+//        Box box3 = new Box();
+//        box.showVolume();
+//        box2.showVolume();
+//        box3.showVolume();
+
+        Box box1 = new Box(10);
+        Box box2 = box1.increase(3);
+
+        box1.showVolume();
         box2.showVolume();
-        box3.showVolume();
     }
 }
