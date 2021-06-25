@@ -48,10 +48,15 @@ public class Main {
 //        box2.showVolume();
 //        box3.showVolume();
 
-        Box box1 = new Box(10);
-        Box box2 = box1.increase(3);
+//        Box box1 = new Box(10);
+//        Box box2 = box1.increase(3);
+//
+//        box1.showVolume();
+//        box2.showVolume();
 
-        box1.showVolume();
-        box2.showVolume();
+        // Inheritance practice part
+        Box box = new Box(15);
+        BoxWeight boxWeight = new BoxWeight(10, 7, 8, 5);
+        boxWeight.showInfo();
     }
 }

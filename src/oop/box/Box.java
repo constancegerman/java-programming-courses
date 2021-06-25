@@ -61,4 +61,8 @@ public class Box {
         }
         return result;
     }
+
+    public void showInfo() {
+        System.out.println("Width: " + width + ", length: " + length + ", height: " + height + ".");
+    }
 }
