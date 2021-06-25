@@ -55,8 +55,10 @@ public class Main {
 //        box2.showVolume();
 
         // Inheritance practice part
-        Box box = new Box(15);
-        BoxWeight boxWeight = new BoxWeight(10, 7, 8, 5);
-        boxWeight.showInfo();
+//        Box box = new Box(15);
+//        System.out.println(box);
+
+        //        int result = (int) (Math.random() * 6 + 1);
+//        System.out.println(result);
     }
 }

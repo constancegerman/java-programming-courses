@@ -65,4 +65,10 @@ public class Box {
     public void showInfo() {
         System.out.println("Width: " + width + ", length: " + length + ", height: " + height + ".");
     }
+
+    @Override
+    public String toString() {
+        String result = String.format("Width: %s\nLength: %s\nHeight: %s", width, length, height);
+        return result;
+    }
 }
